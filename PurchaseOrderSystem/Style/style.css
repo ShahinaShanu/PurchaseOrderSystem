@@ -1,0 +1,35 @@
+﻿body {
+    margin:0;
+    padding:0;
+    background:linear-gradient(to right,aqua,grey);
+}
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    width: 100%;
+}
+.container {
+    height: 600px;
+    position: relative;
+    border: 3px solid black;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.formContent {
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+
+

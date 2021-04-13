@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="PurchaseOrderSystem.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>My Order Page</title>
+    <link href="Style/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h1>Purchase Ordering System</h1>
+        <hr />
+        
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
